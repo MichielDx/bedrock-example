@@ -31,9 +31,9 @@
             </dependency>
 
             <dependency>
-                <groupId>io.quarkiverse.amazonservices</groupId>
+                <groupId>io.quarkus.platform</groupId>
                 <artifactId>quarkus-amazon-services-bom</artifactId>
-                <version>${quarkus-amazon-services.version}</version>
+                <version>${quarkus.platform.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -53,6 +53,7 @@
         <dependency>
             <groupId>io.quarkiverse.amazonservices</groupId>
             <artifactId>quarkus-amazon-bedrockruntime</artifactId>
+            <version>3.4.0</version>
         </dependency>
 
         <dependency>
